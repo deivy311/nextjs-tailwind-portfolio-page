@@ -2,14 +2,14 @@
 import { Navbar, Footer } from "@/components";
 
 // sections
-import Hero from "./hero";
+import Hero from "./landing-page/hero";
 import Clients from "./landing-page/clients";
-import Skills from "./skills";
-import Projects from "./projects";
-import Resume from "./resume";
-import Testimonial from "./testimonial";
-import PopularClients from "./popular-clients";
-import ContactForm from "./contact-form";
+import Skills from "./landing-page/skills";
+import Projects from "./landing-page/projects";
+import Resume from "./landing-page/resume";
+import Testimonial from "./landing-page/testimonial";
+import PopularClients from "./landing-page/popular-clients";
+import ContactForm from "./landing-page/contact-form";
 
 export default function Portfolio() {
   return (
